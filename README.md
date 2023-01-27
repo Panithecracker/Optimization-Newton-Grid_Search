@@ -27,8 +27,8 @@ step, leave the square S? (2) what criteria did you choose for stopping apart fr
 correct spot?
 Notice the condition number of a matrix is implemented in Matlab in the command cond.*
 
-**Solution -> Check the [code](https://link-url-here.org) inside this repo to see how I solved it and the full [written conclusion](https://link-url-here.org)**
- # Solution :
+**Solution -> Check the [code](Problemsolved.m) inside this repo to see how I solved it supported by the full written conclusion inside**
+ # Solution plots:
  **Note: The grid search plot is coloured according to the number of iterations taken from the respecitve point to get to the desired accuracy.**
 
  ![rsz_2023-01-27_2](https://user-images.githubusercontent.com/97905110/215085865-3376a333-1b72-4bb3-ac17-67d002b88b4d.png)  ![rsz_2023-01-27_3](https://user-images.githubusercontent.com/97905110/215086113-bdaaf431-3a67-4787-9bc6-d3e43c1176d0.png)
