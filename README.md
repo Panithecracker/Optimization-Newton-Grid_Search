@@ -1,12 +1,11 @@
 # Optimization-Newton-Grid_Search Project
 This project is covered by the Mit License
 # Problem Description:
-We are going to work on minimizing a function f over a set S, where:
+We will study the utility of the Newton Method to help us minimize function f over a set S, where:
 $$f(x, y) = 2x^2 − 1.05x^4 +0.16x^6+ xy + y^2 $$ and S = {(x,y)| -5 <= x,y <= 5}
 **Any minima of this function, since it is a polynomial, must be at zeros of the gradient and thus,
-we can use the Newton-Raphson method to search for those zeros, so in some sense we know
-the minima already a priori, but what we want to understand is from which points will we have
-faster convergence to the minimum?**.**From some points there may be no convergence at all or
+we can use the Newton-Raphson method to search them.However, it is easy to solve for these zero's analitically since the function in question is a polynomial and it ends up being a matter of solving a bicuadratic equation (easy). Therefore, we know
+the zero's a priori, and we will use this fact to observe the speed of convergence to them**.**From some points there may be no convergence at all or
 it may take more or less iterations to reach a reasonable accuracy around the minimum. Let’s fix
 this accuracy at points that are less than 10−6 distance from the correct minimum**. We will **also
 pay attention at the conditioning of the problem at each step, expressed in the condition number
